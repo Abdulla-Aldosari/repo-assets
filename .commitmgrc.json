@@ -1,0 +1,48 @@
+{
+  "types": [
+    "feat",
+    "fix",
+    "perf",
+    "style",
+    "refactor",
+    "docs",
+    "test",
+    "chore",
+    "build",
+    "ci",
+    "revert"
+  ],
+  "headerMaxLength": 72,
+  "bodyMaxLineLength": 72,
+  "scopePolicy": "required",
+  "scopes": [
+    {
+      "name": "markdown-preview-gh",
+      "description": "Markdown-Preview-GH",
+      "files": [
+        "Markdown-Preview-GH/"
+      ]
+    },
+    {
+      "name": "mindstream",
+      "description": "MindStream",
+      "files": [
+        "MindStream/"
+      ]
+    },
+    {
+      "name": "runbox",
+      "description": "RunBox",
+      "files": [
+        "RunBox/"
+      ]
+    },
+    {
+      "name": "commitmg",
+      "description": "commitmg",
+      "files": [
+        ".commitmgrc.json"
+      ]
+    }
+  ]
+}
